@@ -1,0 +1,13 @@
+{
+    "automappingRulesFile": "",
+    "commands": [
+    ],
+    "extensionsPath": "~/.config/tiled/extensions",
+    "folders": [
+        "maps",
+        "tilesets"
+    ],
+    "objectTypesFile": "",
+    "propertyTypes": [
+    ]
+}

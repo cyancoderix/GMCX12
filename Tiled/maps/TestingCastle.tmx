@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+ <editorsettings>
+  <export target="../../assets/maps/TestingCastle.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="Town" tilewidth="16" tileheight="16" tilecount="132" columns="12">
+  <image source="../../assets/kenney/tiny-town/Tilemap/tilemap_packed.png" width="192" height="176"/>
+ </tileset>
+ <tileset firstgid="133" name="Dungeon" tilewidth="16" tileheight="16" tilecount="132" columns="12">
+  <image source="../../assets/kenney/tiny-dungeon/Tilemap/tilemap_packed.png" width="192" height="176"/>
+ </tileset>
+ <layer id="1" name="Ground" width="10" height="10">
+  <data encoding="csv">
+3,1,3,2,2,1,2,2,1,3,
+1,3,3,1,3,1,1,2,2,1,
+1,1,3,3,2,3,2,3,2,3,
+1,1,2,1,3,1,1,3,2,2,
+1,26,26,26,26,26,26,26,2,2,
+2,26,26,26,26,26,26,26,3,2,
+3,2,25,27,44,13,1,15,1,1,
+1,1,25,41,14,40,26,27,1,2,
+1,2,37,38,38,38,38,39,3,1,
+3,3,1,1,1,1,1,3,2,3
+</data>
+ </layer>
+ <layer id="2" name="Lower" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,5,
+29,97,98,98,98,98,98,99,0,17,
+0,109,110,110,110,110,110,111,197,0,
+0,121,122,122,122,122,122,123,18,198,
+18,190,112,113,162,161,161,192,0,0,
+0,190,124,125,126,127,153,192,0,254,
+5,0,0,0,0,217,165,0,0,0,
+17,242,0,0,0,0,0,0,105,0,
+0,30,0,0,0,0,0,0,0,232,
+0,0,0,0,0,0,18,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Higher" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,103,0,0,0,0,0,
+0,0,0,0,191,0,230,0,0,0,
+0,0,106,0,191,229,104,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,93,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

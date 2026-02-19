@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="Raylib-cs" Version="7.0.2" />
+    <PackageReference Include="Tomlyn" Version="0.20.0" />
+  </ItemGroup>
+
+  <!-- User-defined items and properties -->
+
+  <PropertyGroup>
+	  <NoWarn>1591</NoWarn>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
